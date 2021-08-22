@@ -1,0 +1,68 @@
+{
+  "name": "pbg",
+  "description": "pbg cli",
+  "version": "0.0.1",
+  "author": "Nurbek",
+  "bin": {
+    "pbg": "./bin/run"
+  },
+  "bugs": "https://github.com/NurbekGithub/pbg/issues",
+  "devDependencies": {
+    "@oclif/dev-cli": "^1.26.0",
+    "@prisma/generator-helper": "^2.21.2",
+    "@types/fs-extra": "^9.0.11",
+    "@types/inquirer": "^7.3.1",
+    "@types/node": "^15.3.0",
+    "@types/pluralize": "^0.0.29",
+    "@types/prettier": "^2.3.2",
+    "globby": "^11.0.3",
+    "prettier": "^2.3.2",
+    "prisma": "^2.21.2",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "files": [
+    "/bin",
+    "/lib",
+    "/npm-shrinkwrap.json",
+    "/oclif.manifest.json"
+  ],
+  "homepage": "https://github.com/NurbekGithub/pbg",
+  "keywords": [
+    "oclif"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "oclif": {
+    "commands": "./lib/commands",
+    "bin": "pbg",
+    "plugins": [
+      "@oclif/plugin-help"
+    ]
+  },
+  "repository": "NurbekGithub/pbg",
+  "scripts": {
+    "postpack": "rm -f oclif.manifest.json",
+    "prepack": "rm -rf lib && tsc -b && oclif-dev manifest && oclif-dev readme",
+    "test": "echo NO TESTS",
+    "version": "oclif-dev readme && git add README.md"
+  },
+  "types": "lib/index.d.ts",
+  "dependencies": {
+    "@oclif/command": "^1.8.0",
+    "@oclif/config": "^1.17.0",
+    "@oclif/plugin-help": "^3.2.2",
+    "@prisma/client": "^2.22.1",
+    "@prisma/sdk": "^2.22.1",
+    "@sinclair/typebox": "^0.16.5",
+    "change-case": "^4.1.2",
+    "fs-extra": "^9.1.0",
+    "inquirer": "^8.0.0",
+    "inquirer-search-list": "^1.2.6",
+    "pluralize": "^8.0.0",
+    "tslib": "^2.2.0"
+  }
+}
