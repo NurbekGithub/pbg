@@ -1,7 +1,7 @@
 {
   "name": "pbg",
   "description": "pbg cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Nurbek",
   "bin": {
     "pbg": "./bin/run"

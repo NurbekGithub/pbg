@@ -19,7 +19,7 @@ $ npm install -g pbg
 $ pbg COMMAND
 running command...
 $ pbg (-v|--version|version)
-pbg/0.0.1 linux-x64 node-v14.15.3
+pbg/0.0.2 linux-x64 node-v14.15.3
 $ pbg --help [COMMAND]
 USAGE
   $ pbg COMMAND
@@ -36,22 +36,20 @@ USAGE
 
 ## `pbg default-all [OUTFOLDERPATH]`
 
-generate routes, services and types for all models
+generate routes, services and types for all prisma models
 
 ```
 USAGE
   $ pbg default-all [OUTFOLDERPATH]
 
 OPTIONS
-  -f, --force
-  -h, --help       show CLI help
-  -n, --name=name  name to print
+  -h, --help  show CLI help
 
 EXAMPLE
-  $ pbg default-all
+  $ prisma-boilerplate-generator default-all [OUT_FOLDER_PATH]
 ```
 
-_See code: [src/commands/default-all.ts](https://github.com/NurbekGithub/pbg/blob/v0.0.1/src/commands/default-all.ts)_
+_See code: [src/commands/default-all.ts](https://github.com/NurbekGithub/pbg/blob/v0.0.2/src/commands/default-all.ts)_
 
 ## `pbg help [COMMAND]`
 
@@ -84,10 +82,10 @@ OPTIONS
   -n, --name=name  name to print
 
 EXAMPLE
-  $ pbg default-all
+  $ prisma-boilerplate-generator default-all
 ```
 
-_See code: [src/commands/model.ts](https://github.com/NurbekGithub/pbg/blob/v0.0.1/src/commands/model.ts)_
+_See code: [src/commands/model.ts](https://github.com/NurbekGithub/pbg/blob/v0.0.2/src/commands/model.ts)_
 
 ## `pbg pull [FILE]`
 
@@ -103,10 +101,10 @@ OPTIONS
   -n, --name=name  name to print
 
 EXAMPLE
-  $ pbg pull
+  $ prisma-boilerplate-generator pull
 ```
 
-_See code: [src/commands/pull.ts](https://github.com/NurbekGithub/pbg/blob/v0.0.1/src/commands/pull.ts)_
+_See code: [src/commands/pull.ts](https://github.com/NurbekGithub/pbg/blob/v0.0.2/src/commands/pull.ts)_
 
 ## `pbg test [OUTFOLDERPATH]`
 
@@ -122,8 +120,8 @@ OPTIONS
   -n, --name=name  name to print
 
 EXAMPLE
-  $ pbg pull
+  $ prisma-boilerplate-generator pull
 ```
 
-_See code: [src/commands/test.ts](https://github.com/NurbekGithub/pbg/blob/v0.0.1/src/commands/test.ts)_
+_See code: [src/commands/test.ts](https://github.com/NurbekGithub/pbg/blob/v0.0.2/src/commands/test.ts)_
 <!-- commandsstop -->
