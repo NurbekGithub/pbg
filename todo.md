@@ -5,4 +5,4 @@
 - generate tests
 - make easier to create template
 - choose template prompt
-- add nodemon
+- add init script
