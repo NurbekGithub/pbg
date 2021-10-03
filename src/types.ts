@@ -20,6 +20,11 @@ export type ServiceParams = {
   selection?: selectionType[];
 };
 
+export type TestParams = {
+  model: DMMF.Model;
+  selection?: selectionType[];
+};
+
 export type routeParams = {
   modelName: string;
   idField?: ScalarField | undefined;
