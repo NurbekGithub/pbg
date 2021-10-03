@@ -19,7 +19,7 @@ $ npm install -g pbg
 $ pbg COMMAND
 running command...
 $ pbg (-v|--version|version)
-pbg/0.0.2 linux-x64 node-v14.15.3
+pbg/0.0.3 linux-x64 node-v14.15.3
 $ pbg --help [COMMAND]
 USAGE
   $ pbg COMMAND
@@ -30,9 +30,9 @@ USAGE
 <!-- commands -->
 * [`pbg default-all [OUTFOLDERPATH]`](#pbg-default-all-outfolderpath)
 * [`pbg help [COMMAND]`](#pbg-help-command)
+* [`pbg init [OUTFOLDERPATH]`](#pbg-init-outfolderpath)
 * [`pbg model [OUTFOLDERPATH]`](#pbg-model-outfolderpath)
 * [`pbg pull [FILE]`](#pbg-pull-file)
-* [`pbg test [OUTFOLDERPATH]`](#pbg-test-outfolderpath)
 
 ## `pbg default-all [OUTFOLDERPATH]`
 
@@ -49,7 +49,7 @@ EXAMPLE
   $ prisma-boilerplate-generator default-all [OUT_FOLDER_PATH]
 ```
 
-_See code: [src/commands/default-all.ts](https://github.com/NurbekGithub/pbg/blob/v0.0.2/src/commands/default-all.ts)_
+_See code: [src/commands/default-all.ts](https://github.com/NurbekGithub/pbg/blob/v0.0.3/src/commands/default-all.ts)_
 
 ## `pbg help [COMMAND]`
 
@@ -68,6 +68,23 @@ OPTIONS
 
 _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v3.2.2/src/commands/help.ts)_
 
+## `pbg init [OUTFOLDERPATH]`
+
+init template
+
+```
+USAGE
+  $ pbg init [OUTFOLDERPATH]
+
+OPTIONS
+  -h, --help  show CLI help
+
+EXAMPLE
+  $ prisma-boilerplate-generator init [OUT_FOLDER_PATH]
+```
+
+_See code: [src/commands/init.ts](https://github.com/NurbekGithub/pbg/blob/v0.0.3/src/commands/init.ts)_
+
 ## `pbg model [OUTFOLDERPATH]`
 
 generate routes, services and types for all models
@@ -85,7 +102,7 @@ EXAMPLE
   $ prisma-boilerplate-generator default-all
 ```
 
-_See code: [src/commands/model.ts](https://github.com/NurbekGithub/pbg/blob/v0.0.2/src/commands/model.ts)_
+_See code: [src/commands/model.ts](https://github.com/NurbekGithub/pbg/blob/v0.0.3/src/commands/model.ts)_
 
 ## `pbg pull [FILE]`
 
@@ -104,24 +121,5 @@ EXAMPLE
   $ prisma-boilerplate-generator pull
 ```
 
-_See code: [src/commands/pull.ts](https://github.com/NurbekGithub/pbg/blob/v0.0.2/src/commands/pull.ts)_
-
-## `pbg test [OUTFOLDERPATH]`
-
-describe the command here
-
-```
-USAGE
-  $ pbg test [OUTFOLDERPATH]
-
-OPTIONS
-  -f, --force
-  -h, --help       show CLI help
-  -n, --name=name  name to print
-
-EXAMPLE
-  $ prisma-boilerplate-generator pull
-```
-
-_See code: [src/commands/test.ts](https://github.com/NurbekGithub/pbg/blob/v0.0.2/src/commands/test.ts)_
+_See code: [src/commands/pull.ts](https://github.com/NurbekGithub/pbg/blob/v0.0.3/src/commands/pull.ts)_
 <!-- commandsstop -->
