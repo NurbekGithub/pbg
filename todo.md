@@ -1,8 +1,7 @@
-- bundle with oclif
 - clean utils place where it is used
 - able to delete pbg.selection.ts
 - method based change file even in src files
 - generate tests
 - make easier to create template
 - choose template prompt
-- add init script
+- Fix prisma copy
