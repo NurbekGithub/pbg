@@ -5,7 +5,7 @@ import {
   selectionType,
   ServiceParams,
   templateConfig,
-} from "../../../../types";
+} from "../../../../src/types";
 import {
   distinctPluralize,
   getEnumFields,
@@ -15,7 +15,7 @@ import {
   getScalarFields,
   getStringByMethod,
   hasObjectField,
-} from "../../../../utils";
+} from "../../../../src/utils";
 
 function getPrismaSelection(fields: selectionType[]): string {
   const scalarOrEnumFields = [

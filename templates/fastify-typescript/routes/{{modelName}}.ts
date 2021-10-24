@@ -5,8 +5,8 @@ import {
   routeParams,
   ScalarField,
   templateConfig,
-} from "../../../types";
-import { distinctPluralize, getStringByMethod } from "../../../utils";
+} from "../../../src/types";
+import { distinctPluralize, getStringByMethod } from "../../../src/utils";
 
 function getRoute(params: routeParams) {
   const camelCase = cC(params.modelName);

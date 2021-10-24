@@ -1,6 +1,6 @@
 import { camelCase as cC, pascalCase as pC } from "change-case";
-import { fileParams, HTTP_METHODS, templateConfig, TestParams } from "../../../../types";
-import { distinctPluralize } from "../../../../utils";
+import { fileParams, HTTP_METHODS, templateConfig, TestParams } from "../../../../src/types";
+import { distinctPluralize } from "../../../../src/utils";
 
 // TODO: where updateMany
 

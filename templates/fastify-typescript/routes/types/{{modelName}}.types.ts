@@ -10,14 +10,14 @@ import {
   selectionType,
   templateConfig,
   typeParams,
-} from "../../../../types";
+} from "../../../../src/types";
 import {
   distinctPluralize,
   getEnumFields,
   getIdField,
   getObjectFields,
   getScalarFields,
-} from "../../../../utils";
+} from "../../../../src/utils";
 
 function getTypeboxScalar(fieldType: PrismaPrimitive): string {
   switch (fieldType) {

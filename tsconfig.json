@@ -18,5 +18,5 @@
     "lib": ["esnext"]
   },
   "exclude": ["src/templates/**/*"],
-  "include": ["src/**/*", "utils.ts"]
+  "include": ["src/**/*", "utils.ts", "fastify-typescript"]
 }
