@@ -19,7 +19,7 @@ $ npm install -g pbg
 $ pbg COMMAND
 running command...
 $ pbg (-v|--version|version)
-pbg/0.0.3 linux-x64 node-v14.15.3
+pbg/0.0.4 linux-x64 node-v14.15.3
 $ pbg --help [COMMAND]
 USAGE
   $ pbg COMMAND
@@ -49,7 +49,7 @@ EXAMPLE
   $ prisma-boilerplate-generator default-all [OUT_FOLDER_PATH]
 ```
 
-_See code: [src/commands/default-all.ts](https://github.com/NurbekGithub/pbg/blob/v0.0.3/src/commands/default-all.ts)_
+_See code: [src/commands/default-all.ts](https://github.com/NurbekGithub/pbg/blob/v0.0.4/src/commands/default-all.ts)_
 
 ## `pbg help [COMMAND]`
 
@@ -83,7 +83,7 @@ EXAMPLE
   $ prisma-boilerplate-generator init [OUT_FOLDER_PATH]
 ```
 
-_See code: [src/commands/init.ts](https://github.com/NurbekGithub/pbg/blob/v0.0.3/src/commands/init.ts)_
+_See code: [src/commands/init.ts](https://github.com/NurbekGithub/pbg/blob/v0.0.4/src/commands/init.ts)_
 
 ## `pbg model [OUTFOLDERPATH]`
 
@@ -102,7 +102,7 @@ EXAMPLE
   $ prisma-boilerplate-generator default-all
 ```
 
-_See code: [src/commands/model.ts](https://github.com/NurbekGithub/pbg/blob/v0.0.3/src/commands/model.ts)_
+_See code: [src/commands/model.ts](https://github.com/NurbekGithub/pbg/blob/v0.0.4/src/commands/model.ts)_
 
 ## `pbg pull [FILE]`
 
@@ -121,5 +121,5 @@ EXAMPLE
   $ prisma-boilerplate-generator pull
 ```
 
-_See code: [src/commands/pull.ts](https://github.com/NurbekGithub/pbg/blob/v0.0.3/src/commands/pull.ts)_
+_See code: [src/commands/pull.ts](https://github.com/NurbekGithub/pbg/blob/v0.0.4/src/commands/pull.ts)_
 <!-- commandsstop -->
