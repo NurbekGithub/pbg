@@ -19,7 +19,6 @@ import {
   selectionType,
 } from "../types";
 import inquirer from "inquirer";
-import { DMMF } from "@prisma/client/runtime";
 import {
   copyPrismaIntoOutFolder,
   generateOutFolder,
@@ -30,6 +29,7 @@ import {
   isDisabledScalarField,
 } from "../utils";
 import { resolve } from "path";
+import { DMMF } from "@prisma/generator-helper";
 
 inquirer.registerPrompt("search-list", require("inquirer-search-list"));
 

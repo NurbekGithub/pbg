@@ -15,12 +15,8 @@
     "target": "es2020",
     "noFallthroughCasesInSwitch": true,
     "forceConsistentCasingInFileNames": true,
-    "lib": [
-      "esnext"
-    ],
+    "lib": ["esnext"]
   },
   "exclude": ["src/templates/**/*"],
-  "include": [
-    "src/**/*"
-, "utils.ts", "templates/fastify-typescript"  ]
+  "include": ["src/**/*", "utils.ts"]
 }
